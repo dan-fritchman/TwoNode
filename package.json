@@ -1,0 +1,17 @@
+{
+  "name": "TwoNode",
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {
+    "@types/node": "^20.11.6",
+    "canvas": "^2.11.2",
+    "jsdom": "^24.0.0",
+    "jsdom-global": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "two.js": "^0.8.12",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "go": "ts-node src/main.ts"
+  }
+}

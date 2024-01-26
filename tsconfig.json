@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": false,
+        "jsx": "react",
+        "declaration": true,
+        "module": "commonjs",
+        "target": "es2020",
+        "sourceMap": true,
+        "composite": true,
+        "importHelpers": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "strictNullChecks": true,
+        "outDir": "out",
+        "lib": [
+            "es2020",
+            "dom"
+        ],
+    },
+    "include": [
+        "src",
+    ],
+}
